@@ -5,7 +5,7 @@ An library providing utility method to log to either using log4js or fluentd
 
 ## Installation
 
-  npm install git@github.com:SanthoshVasabhaktula/node-logger.git
+  npm install git://github.com/SanthoshVasabhaktula/node-logger.git
 
 ## Usage
 
