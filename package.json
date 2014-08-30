@@ -1,0 +1,24 @@
+{
+  "name": "node-logger",
+  "version": "1.0.0",
+  "description": "An library providing utility method to log to either using log4js or fluentd",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SanthoshVasabhaktula/node-logger.git"
+  },
+  "keywords": [
+    "logger",
+    "log4js",
+    "fluentd"
+  ],
+  "author": "Santhosh Vasabhaktula <santhosh@canopusconsulting.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/SanthoshVasabhaktula/node-logger/issues"
+  },
+  "homepage": "https://github.com/SanthoshVasabhaktula/node-logger"
+}
