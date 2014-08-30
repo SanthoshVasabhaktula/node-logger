@@ -12,15 +12,21 @@ An library providing utility method to log to either using log4js or fluentd
   var Logger = require('node-logger');
 
   # Log to console
+
   Logger.log("log to console");
+
   Logger.log({log: "log to console"}); // To log a json object
 
   # Log to log4js
+
   Logger.configure('log4js', {appender: { type: 'file', filename: 'logs/test.log', category: 'test'}});
+
   Logger.log("Log to log4j 1");
 
   # Log to fluentd
+
   Logger.configure('fluentd', {tag: 'performance', host: 'localhost', port: 24224, timeout: 3.0});
+  
   Logger.log({data:"logging to fluentd 1"});
 
 
