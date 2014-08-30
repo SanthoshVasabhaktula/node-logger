@@ -9,10 +9,10 @@
   "dependencies": {
     "log4js":"*",
     "fluent-logger":"*"
-  }
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:SanthoshVasabhaktula/node-logger.git"
+    "url": "https://github.com/SanthoshVasabhaktula/node-logger.git"
   },
   "keywords": [
     "logger",
